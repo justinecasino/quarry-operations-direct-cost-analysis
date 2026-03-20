@@ -63,7 +63,8 @@ This project addresses this gap by building a unified data model to enable accur
 ### 5. Measures & Visualization
 - Developed DAX measures
  <img width="212" height="547" alt="Measures" src="https://github.com/user-attachments/assets/d8103c49-1e0a-4bee-af88-8d10488705fc" />
-- Built interactive Power BI dashboards to analyze cost drivers and operational performance
+ 
+ - Built interactive Power BI dashboards to analyze cost drivers and operational performance
 
 
 
