@@ -8,8 +8,8 @@ This project presents an end-to-end cost efficiency analysis of quarry operation
 
 In a typical quarry operation, the production cycle consists of the following processes:
 
- • Drilling
- • Blasting
+ *Drilling
+ *Blasting
  
  • Extraction
  
