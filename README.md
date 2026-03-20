@@ -1,9 +1,50 @@
-# quarry-operations-direct-cost-analysis
-Cost efficiency analysis of quarry operations focusing on cost per m³ and operational cost drivers.
+# Quarry Operations Direct Cost Analysis
 
  ## Overview
 
 This project presents an end-to-end cost efficiency analysis of quarry operations using synthetic data. It focuses on evaluating cost per cubic meter (m³) and identifying key operational cost drivers across the full production cycle—from drilling to hauling.
+
+## Operational Context
+
+In a typical quarry operation, the production cycle consists of the following processes:
+
+Drilling
+
+Blasting
+
+Extraction
+
+Loading
+
+Hauling
+
+Stockpiling
+
+Operations can be executed either in-house or through external contractors, depending on the company’s strategy and resources.
+
+In this dataset:
+
+Drilling and Blasting are treated as external services, with costs applied as bulk or contract-based values
+
+Extraction, Loading, Hauling, and Stockpiling are considered in-house operations, allowing detailed cost breakdown and analysis
+
+The analysis focuses on direct operational costs, which include:
+
+Fuel Cost
+
+Manpower Cost
+
+Equipment Cost (rental or depreciation)
+
+Equipment Maintenance Cost
+
+To simplify the model and focus on core operational efficiency, the dataset excludes indirect costs, such as:
+
+Permits and regulatory expenses
+
+Facilities and overhead
+
+Administrative or indirect manpower
 
 ## Problem Statement
 
@@ -123,5 +164,6 @@ DAX & Power Query – Data transformation and measures
 ## Disclaimer
 
 This project uses AI-generated synthetic data designed to simulate realistic quarry operations. No real company data was used.
-# title
-## subheading
+
+
+
