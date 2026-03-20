@@ -9,39 +9,28 @@ This project presents an end-to-end cost efficiency analysis of quarry operation
 In a typical quarry operation, the production cycle consists of the following processes:
 - Drilling
 - Blasting
--Extraction
- 
- • Loading
- 
- • Hauling
- 
- • Stockpiling
+- Extraction
+- Loading
+- Hauling
+- Stockpiling
 
 Operations can be executed either in-house or through external contractors, depending on the company’s strategy and resources.
 
 In this dataset:
 
-Drilling and Blasting are treated as external services, with costs applied as bulk or contract-based values
+- **Drilling** and **Blasting** are treated as **external services**, with costs applied as bulk or contract-based values
+- **Extraction, Loading, Hauling, and Stockpiling** are considered **in-house operations**, allowing detailed cost breakdown and analysis
 
-Extraction, Loading, Hauling, and Stockpiling are considered in-house operations, allowing detailed cost breakdown and analysis
-
-The analysis focuses on direct operational costs, which include:
-
-Fuel Cost
-
-Manpower Cost
-
-Equipment Cost (rental or depreciation)
-
-Equipment Maintenance Cost
+The analysis focuses on **direct operational costs**, which include:
+- Fuel Cost
+- Manpower Cost
+- Equipment Cost (rental or depreciation)
+- Equipment Maintenance Cost
 
 To simplify the model and focus on core operational efficiency, the dataset excludes indirect costs, such as:
-
-Permits and regulatory expenses
-
-Facilities and overhead
-
-Administrative or indirect manpower
+- Permits and regulatory expenses
+- Facilities and overhead
+- Administrative or indirect manpower
 
 ## Problem Statement
 
