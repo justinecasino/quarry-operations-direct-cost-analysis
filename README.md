@@ -7,11 +7,17 @@ This project presents an end-to-end cost efficiency analysis of quarry operation
 ## Operational Context
 
 In a typical quarry operation, the production cycle consists of the following processes:
+
  • Drilling
+ 
  • Blasting
+ 
  • Extraction
+ 
  • Loading
+ 
  • Hauling
+ 
  • Stockpiling
 
 Operations can be executed either in-house or through external contractors, depending on the company’s strategy and resources.
