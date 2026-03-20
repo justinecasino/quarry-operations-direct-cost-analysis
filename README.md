@@ -1,4 +1,4 @@
-[v6_fuel.csv](https://github.com/user-attachments/files/26151793/v6_fuel.csv)# Quarry Operations Direct Cost Analysis
+# Quarry Operations Direct Cost Analysis
 
  ## Overview
 
@@ -43,99 +43,32 @@ This project addresses this gap by building a unified data model to enable accur
 ### 1. Data Generation & Cleaning
 
 - Generated synthetic datasets using AI to simulate realistic quarry operations
-
 - Cleaned and standardized data using Python (Google Colab)
 -link:- https://colab.research.google.com/drive/1jPHbrKn9rcpHiS8hL6u4mWNKgmcM7Bte?usp=sharing
-
 - Exported structured CSV files for analysis
 
-
-
-
+### 2. Data Import & Preparation
+- Imported datasets into Power BI
+- Created Dimension Tables using DAX and Power Query
 
 ### 3. Data Modeling
+- Designed a schema
+- Ensured consistent filtering across multiple fact tables
 
-Built a star schema model in Power BI
+### 4. Data Transformation & Integration
+- Aggregated hauling data at the equipment-day level to avoid duplication
+- Transformed and appended hauling data into the operations dataset
+- Built a unified process-level fact table for end-to-end analysis
 
-Created conformed dimensions:
-
-Date
-
-Site
-
-Equipment
-
-### 4. Data Transformation
-
-Created a Process Dimension Table
-
-Transformed hauling data and aligned structure with operations
-
-Aggregated hauling data at equipment-day level to avoid duplication
-
-
-
-
-2. Data Import & Preparation
-
-Imported datasets into Power BI (Operations, Hauling, Fuel Pricing)
-
-Created a Date Dimension Table using DAX
-
-Built a Site Dimension Table in Power Query by referencing and deduplicating source data
-
-3. Data Modeling
-
-Designed a star schema with conformed dimensions:
-
-Date
-
-Site
-
-Equipment
-
-Ensured consistent filtering across multiple fact tables
-
-4. Data Transformation & Integration
-
-Created a Process Dimension Table for process-level analysis
-
-Aggregated hauling data at the equipment-day level to avoid duplication
-
-Transformed and appended hauling data into the operations dataset
-
-Built a unified process-level fact table for end-to-end analysis
-
-5. Measures & Visualization
-
-Developed DAX measures (Total Cost, Output, Cost per m³, Fuel Cost)
-
-Built interactive Power BI dashboards to analyze cost drivers and operational performance
+### 5. Measures & Visualization
+- Developed DAX measures
+ <img width="212" height="547" alt="Measures" src="https://github.com/user-attachments/assets/d8103c49-1e0a-4bee-af88-8d10488705fc" />
+- Built interactive Power BI dashboards to analyze cost drivers and operational performance
 
 
 
 
 
-
-### 5. Data Integration
-
-Appended hauling data into operations dataset
-
-Built a unified process-level fact table for end-to-end analysis
-
-### 6. Measures & Visualization
-
-Developed DAX measures:
-
-Total Cost
-
-Total Output
-
-Cost per m³
-
-Fuel Cost
-
-Built interactive dashboards in Power BI
 
 ## Key Insights
 
