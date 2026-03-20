@@ -65,49 +65,48 @@ This project addresses this gap by building a unified data model to enable accur
  <img width="212" height="547" alt="Measures" src="https://github.com/user-attachments/assets/d8103c49-1e0a-4bee-af88-8d10488705fc" />
  
  - Built interactive Power BI dashboards to analyze cost drivers and operational performance
-
-
-
-
-
+<img width="1132" height="717" alt="Dashboard1" src="https://github.com/user-attachments/assets/6e740fc1-2f58-4573-9cf1-8cf97456000e" />
 
 ## Key Insights
-
-Hauling is a major cost driver, significantly impacting total cost per m³
-
-Fuel cost variability directly affects operational efficiency
-
-Some sites show higher cost per m³ despite similar output, indicating inefficiencies
-
-Equipment utilization differences contribute to cost inconsistencies across sites
-
-Integrating hauling into operations reveals the true end-to-end cost structure
+- **Equipment cost is the dominant cost driver (~50%+)**
+    The cost breakdown shows that equipment-related costs make up the largest share of total expenses, significantly influencing overall cost per m³.
+- **Hauling is the most expensive operational process**
+    Among all stages, hauling has the highest total cost, driven by combined fuel usage and equipment cost, making it the most critical area for optimization.
+- **Fuel cost is the second major contributor (~25–27%)**
+    Fuel expenses consistently represent a significant portion of total cost, especially in hauling and extraction activities.
+- **Cost per m³ varies across locations**
+    Site comparison indicates differences in cost efficiency, suggesting variability in operations, distance, or equipment utilization.
+- **External services (drilling & blasting) are stable but less dominant**
+    These costs remain relatively constant due to contract-based pricing and contribute less to variability compared to in-house operations.
+- **Short-term trends show relatively stable total cost with fluctuations in fuel-driven processes**
+    Variations in daily cost trends are mainly influenced by fuel consumption and operational activity levels.
 
 ## Recommendations
-
-Optimize hauling operations
-
-Review hauling distances and routing efficiency
-
-Improve truck utilization and scheduling
-
-Improve fuel efficiency monitoring
-
+- **Optimize equipment utilization (Top Priority)**
+   Review equipment deployment and idle time
+   Align equipment capacity with production demand
+   Evaluate cost-benefit of rental vs owned equipment
+- **Improve hauling efficiency**
+Optimize hauling routes and distances
+Reduce cycle time and waiting time
+Monitor truck utilization and dispatching
+- **Strengthen fuel management**
 Track fuel consumption per equipment and per process
+Identify inefficiencies or abnormal usage
+Implement fuel-saving operational practices
 
-Identify abnormal usage patterns
+- **Benchmark and standardize site performance**
 
-Standardize operational practices across sites
+Identify best-performing sites in terms of cost per m³
+Replicate efficient practices across other locations
 
-Benchmark high-performing sites
+- **Leverage cost per m³ as a core KPI**
 
-Apply best practices to underperforming locations
+Monitor regularly at site and process level
+Use it as a basis for operational and financial decisions
 
-Enhance data tracking
 
-Maintain consistent process-level data recording
 
-Integrate all operational data into a unified system
 
 ## Tech Stack
 
