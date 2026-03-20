@@ -34,19 +34,9 @@ To simplify the model and focus on core operational efficiency, the dataset excl
 
 ## Problem Statement
 
-Quarry operations involve multiple interconnected processes (drilling, blasting, extraction, loading, hauling, and stockpiling), each contributing to total production cost.
+Operational data in quarry operations is often fragmented across multiple datasets, limiting visibility into true cost per m³ and key cost drivers, which can lead to inefficient decision-making and cost control.
 
-However:
-
-Costs are often fragmented across different datasets
-
-Hauling and operations are analyzed separately
-
-There is limited visibility into true cost per m³ per process
-
-Decision-makers lack a unified view of cost drivers
-
-👉 The goal of this project is to integrate and model operational data to enable accurate, process-level cost analysis and performance monitoring.
+This project addresses this gap by building a unified data model to enable accurate process-level cost analysis and support better cost efficiency decisions across the full production cycle.
 
 ## Methodology
 ### 1. Data Generation
