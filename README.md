@@ -98,8 +98,8 @@ The final model is designed as a **star schema** centered on a unified fact tabl
   - Cost components:
     - Fuel Liters 
     - Labor Cost  
-    - Daily Equipment Cost --> Equipment Rent + Maintenance
-    - Process Cost --> External Services
+    - Daily Equipment Cost - equipment rent + maintenance
+    - Process Cost - external services
 
 ### Dimension Tables
 
