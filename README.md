@@ -77,8 +77,10 @@ This project addresses this gap by building a unified data model to enable accur
 
 ## Methodology
 - Data Generation & Cleaning
-    Generated synthetic datasets to simulate quarry operations and cleaned them using Python (Google Colab) to ensure consistency and usability.
+
+  Generated synthetic datasets to simulate quarry operations and cleaned them using Python (Google Colab) to ensure consistency and usability.
 - Data Import & Preparation
+
 Imported datasets (Operations, Hauling, Fuel Pricing) into Power BI. Created a Date dimension using DAX and a Site dimension using Power Query.
 - Data Modeling
 Designed a star schema with conformed dimensions (Date, Site, Equipment) to enable consistent filtering across datasets.
