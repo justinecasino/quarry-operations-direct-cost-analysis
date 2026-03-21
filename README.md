@@ -33,15 +33,13 @@ To simplify the model and focus on core operational efficiency, the dataset excl
 - Administrative or indirect manpower
 
 
-
-
-
-
 ## Problem Statement
 
 Operational data in quarry operations is often fragmented across multiple datasets, limiting visibility into true cost per m³ and key cost drivers, which can lead to inefficient decision-making and cost control.
 
 This project addresses this gap by building a unified data model to enable accurate process-level cost analysis and support better cost efficiency decisions across the full production cycle.
+
+
 
 ## Methodology
 
@@ -57,7 +55,8 @@ This project addresses this gap by building a unified data model to enable accur
 - Created Dimension Tables using DAX and Power Query
 
 ### 3. Data Modeling
-- Designed a schema
+- Designed a star schema with conformed dimensions
+  <img width="807" height="646" alt="Final_Star_Schema" src="https://github.com/user-attachments/assets/a25d3861-d5da-4cae-87e4-c210911387dd" />
 - Ensured consistent filtering across multiple fact tables
 
 ### 4. Data Transformation & Integration
@@ -66,28 +65,16 @@ This project addresses this gap by building a unified data model to enable accur
 - Built a unified process-level fact table for end-to-end analysis
 
 ### 5. Measures & Visualization
-- Developed DAX measures
- <img width="212" height="547" alt="Measures" src="https://github.com/user-attachments/assets/d8103c49-1e0a-4bee-af88-8d10488705fc" />
+- Developed key DAX measures such as:
+-- Cost per m³
+-- Total Cost 
+-- Fuel Cost
+-- Equipment Cost
+-- External Services Cost
+-- Labor Cost
  
  - Built interactive Power BI dashboards to analyze cost drivers and operational performance
 <img width="1132" height="717" alt="Dashboard1" src="https://github.com/user-attachments/assets/6e740fc1-2f58-4573-9cf1-8cf97456000e" />
-
-
-
-
-## Methodology
-- Data Generation & Cleaning
-
-  Generated synthetic datasets to simulate quarry operations and cleaned them using Python (Google Colab) to ensure consistency and usability.
-- Data Import & Preparation
-
-Imported datasets (Operations, Hauling, Fuel Pricing) into Power BI. Created a Date dimension using DAX and a Site dimension using Power Query.
-- Data Modeling
-Designed a star schema with conformed dimensions (Date, Site, Equipment) to enable consistent filtering across datasets.
-- Data Transformation & Integration
-Created a Process dimension to standardize operational stages. Aggregated hauling data at the equipment-day level to prevent duplication, then appended it into the operations dataset to form a unified process-level fact table.
-- Measures & Visualization
-Developed key DAX measures (Total Cost, Output, Cost per m³, Fuel Cost) and built interactive dashboards to analyze cost trends, process performance, and site efficiency.
 
 
 
