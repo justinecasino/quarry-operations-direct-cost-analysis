@@ -124,6 +124,7 @@ The final model is designed as a **star schema** centered on a unified fact tabl
 
 
 
+
 ## 📈 Key Insights
 
 - **Equipment cost is the primary cost driver (~50%+)**  
