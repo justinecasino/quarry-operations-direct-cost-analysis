@@ -66,7 +66,7 @@ This project addresses this gap by building a unified data model to enable accur
 
 ### 5. Measures & Visualization
 - Developed key DAX measures such as:
- - Cost per m³
+    - Cost per m³
  - Total Cost 
  - Fuel Cost
  - Equipment Cost
