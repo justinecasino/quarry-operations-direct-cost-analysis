@@ -4,6 +4,8 @@
 
 This project presents an end-to-end cost efficiency analysis of quarry operations using synthetic data. It focuses on evaluating cost per cubic meter (m³) and identifying key operational cost drivers across the full production cycle - from drilling to hauling.
 
+
+
 ## Operational Context
 
 In a typical quarry operation, the production cycle consists of the following processes:
@@ -31,6 +33,7 @@ To simplify the model and focus on core operational efficiency, the dataset excl
 - Permits and regulatory expenses
 - Facilities and overhead
 - Administrative or indirect manpower
+
 
 
 ## Problem Statement
@@ -67,16 +70,12 @@ This project addresses this gap by building a unified data model to enable accur
 ### 5. Measures & Visualization
 - Developed key DAX measures such as:
     - Cost per m³
- - Total Cost 
- - Fuel Cost
- - Equipment Cost
- - External Services Cost
- - Labor Cost
- 
+    - Total Cost 
+    - Fuel Cost
+    - Equipment Cost
+    - External Services Cost
+    - Labor Cost
  - Built interactive Power BI dashboards to analyze cost drivers and operational performance
-<img width="1132" height="717" alt="Dashboard1" src="https://github.com/user-attachments/assets/6e740fc1-2f58-4573-9cf1-8cf97456000e" />
-
-
 
 
 
@@ -93,6 +92,8 @@ This project addresses this gap by building a unified data model to enable accur
     These costs remain relatively constant due to contract-based pricing and contribute less to variability compared to in-house operations.
 - **Short-term trends show relatively stable total cost with fluctuations in fuel-driven processes**
     Variations in daily cost trends are mainly influenced by fuel consumption and operational activity levels.
+
+
 
 ## Recommendations
 - **Optimize equipment utilization (Top Priority)**
@@ -117,7 +118,6 @@ Replicate efficient practices across other locations
 
 Monitor regularly at site and process level
 Use it as a basis for operational and financial decisions
-
 
 
 
