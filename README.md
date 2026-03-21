@@ -2,7 +2,7 @@
 
  ## Overview
 
-This project presents an end-to-end cost efficiency analysis of quarry operations using synthetic data. It focuses on evaluating cost per cubic meter (m³) and identifying key operational cost drivers across the full production cycle—from drilling to hauling.
+This project presents an end-to-end cost efficiency analysis of quarry operations using synthetic data. It focuses on evaluating cost per cubic meter (m³) and identifying key operational cost drivers across the full production cycle - from drilling to hauling.
 
 ## Operational Context
 
@@ -31,6 +31,11 @@ To simplify the model and focus on core operational efficiency, the dataset excl
 - Permits and regulatory expenses
 - Facilities and overhead
 - Administrative or indirect manpower
+
+
+
+
+
 
 ## Problem Statement
 
@@ -66,6 +71,25 @@ This project addresses this gap by building a unified data model to enable accur
  
  - Built interactive Power BI dashboards to analyze cost drivers and operational performance
 <img width="1132" height="717" alt="Dashboard1" src="https://github.com/user-attachments/assets/6e740fc1-2f58-4573-9cf1-8cf97456000e" />
+
+
+
+
+## Methodology
+- Data Generation & Cleaning
+Generated synthetic datasets to simulate quarry operations and cleaned them using Python (Google Colab) to ensure consistency and usability.
+- Data Import & Preparation
+Imported datasets (Operations, Hauling, Fuel Pricing) into Power BI. Created a Date dimension using DAX and a Site dimension using Power Query.
+- Data Modeling
+Designed a star schema with conformed dimensions (Date, Site, Equipment) to enable consistent filtering across datasets.
+- Data Transformation & Integration
+Created a Process dimension to standardize operational stages. Aggregated hauling data at the equipment-day level to prevent duplication, then appended it into the operations dataset to form a unified process-level fact table.
+- Measures & Visualization
+Developed key DAX measures (Total Cost, Output, Cost per m³, Fuel Cost) and built interactive dashboards to analyze cost trends, process performance, and site efficiency.
+
+
+
+
 
 ## Key Insights
 - **Equipment cost is the dominant cost driver (~50%+)**
