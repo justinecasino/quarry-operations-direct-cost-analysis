@@ -59,7 +59,7 @@ This project addresses this gap by building a unified data model to enable accur
 
 ### 3. Data Modeling
 - Designed a star schema with conformed dimensions
-  <img width="807" height="646" alt="Final_Star_Schema" src="https://github.com/user-attachments/assets/a25d3861-d5da-4cae-87e4-c210911387dd" />
+<img width="887" height="683" alt="Final Star Schema" src="https://github.com/user-attachments/assets/38f80238-a796-405b-93fd-03bac2e21ed6" />
 - Ensured consistent filtering across multiple fact tables
 
 ### 4. Data Transformation & Integration
@@ -93,13 +93,12 @@ The final model is designed as a **star schema** centered on a unified fact tabl
   - Site  
   - Equipment ID  
   - Process  
-  - Output (m³)  
+  - Output (m³)
   - Cost components:
-    - Fuel Cost  
+    - Fuel Liters 
     - Labor Cost  
-    - Equipment Cost  
-    - Maintenance Cost  
-    - External Services Cost  
+    - Daily Equipment Cost  
+    - Process Cost  
 
 ### Dimension Tables
 
