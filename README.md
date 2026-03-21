@@ -77,6 +77,7 @@ This project addresses this gap by building a unified data model to enable accur
     - External Services Cost
     - Labor Cost
  - Built interactive Power BI dashboards to analyze cost drivers and operational performance
+<img width="1138" height="712" alt="Dashboard 1" src="https://github.com/user-attachments/assets/96a6dec2-0301-4854-b410-44480b23fb01" />
 
 
 
@@ -114,54 +115,44 @@ The final model is designed as a **star schema** centered on a unified fact tabl
 
 
 
-
-- **Cost per m³ varies across locations**
-    Site comparison indicates differences in cost efficiency, suggesting variability in operations, distance, or equipment utilization.
-- **External services (drilling & blasting) are stable but less dominant**
-    These costs remain relatively constant due to contract-based pricing and contribute less to variability compared to in-house operations.
-- **Short-term trends show relatively stable total cost with fluctuations in fuel-driven processes**
-    Variations in daily cost trends are mainly influenced by fuel consumption and operational activity levels.
-
-
-
-
-## 📈 Key Insights
+## Key Insights
 
 - **Equipment cost is the primary cost driver (~50%+)**  
   Across all sites, equipment-related costs consistently make up the largest portion of total expenses, significantly impacting cost per m³.
+  
 - **Hauling is the most expensive operational stage**  
   The operations cycle breakdown shows that hauling contributes the highest cost due to combined fuel and equipment usage.
 
 - **Fuel cost is the second largest contributor (~25–30%)**  
   Fuel expenses play a major role, especially in hauling and extraction processes, driving variability in daily costs.
 
-- **Cost structure is consistent across sites, but efficiency varies**  
-  While cost composition is similar, differences in cost per m³ suggest variations in operational efficiency and execution.
+- **Cost per m³ varies across locations**
+    Site comparison indicates differences in cost efficiency, suggesting variability in operations, distance, or equipment utilization.
 
-- **External services (drilling & blasting) are stable and predictable**  
-  These costs remain relatively constant due to contract-based pricing and have minimal impact on cost fluctuations.
+- **External services (drilling & blasting) are stable but less dominant**
+    These costs remain relatively constant due to contract-based pricing and contribute less to variability compared to in-house operations.
 
 - **Daily cost fluctuations are driven by operational activity and fuel usage**  
   Variations in trends are mainly influenced by changes in fuel consumption and equipment utilization.
 
----
 
-## 💡 Recommendations
 
-- **Optimize equipment utilization (Highest Impact)**
+## Recommendations
+
+- **Optimize equipment utilization**
   - Minimize idle time and improve deployment planning  
-  - Align equipment usage with production requirements  
+  - Align equipment capacity with production requirements  
   - Evaluate cost efficiency of owned vs rented equipment  
 
 - **Improve hauling efficiency**
-  - Optimize hauling routes and reduce travel distance  
-  - Improve truck dispatching and cycle time  
-  - Monitor load efficiency and trip productivity  
+  - Optimize hauling routes and distances
+  - Reduce cycle time and waiting time 
+  - Monitor truck utilization and dispatching
 
-- **Strengthen fuel cost management**
+- **Strengthen fuel management**
   - Track fuel consumption per equipment and per process  
-  - Identify abnormal usage patterns  
-  - Implement fuel efficiency practices  
+  - Identify inefficiencies or abnormal usage 
+  - Implement fuel-saving operational practices 
 
 - **Benchmark and standardize site performance**
   - Identify best-performing sites in terms of cost per m³  
@@ -171,69 +162,22 @@ The final model is designed as a **star schema** centered on a unified fact tabl
   - Monitor regularly at both site and process levels  
   - Use it to guide operational and financial decisions  
 
----
 
-## ⚠️ Disclaimer
+
+## Tech Stack
+
+- **Python (Google Colab)** – data cleaning  
+- **Power BI** – data modeling & visualization  
+- **DAX & Power Query** – calculations and transformations  
+
+
+
+## Disclaimer
 
 This project uses **AI-generated synthetic data** designed to approximate realistic quarry operations.  
 It is intended for analytical and portfolio purposes only and does not represent actual company data.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Recommendations
-- **Optimize equipment utilization (Top Priority)**
-   Review equipment deployment and idle time
-   Align equipment capacity with production demand
-   Evaluate cost-benefit of rental vs owned equipment
-- **Improve hauling efficiency**
-Optimize hauling routes and distances
-Reduce cycle time and waiting time
-Monitor truck utilization and dispatching
-- **Strengthen fuel management**
-Track fuel consumption per equipment and per process
-Identify inefficiencies or abnormal usage
-Implement fuel-saving operational practices
-
-- **Benchmark and standardize site performance**
-
-Identify best-performing sites in terms of cost per m³
-Replicate efficient practices across other locations
-
-- **Leverage cost per m³ as a core KPI**
-
-Monitor regularly at site and process level
-Use it as a basis for operational and financial decisions
-
-
-
-## Tech Stack
-
-Python (Google Colab) – Data cleaning
-
-Power BI – Data modeling & visualization
-
-DAX & Power Query – Data transformation and measures
-
-## Disclaimer
-
-This project uses AI-generated synthetic data designed to simulate realistic quarry operations. No real company data was used.
 
 
 
