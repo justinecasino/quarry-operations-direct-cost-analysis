@@ -117,6 +117,8 @@ The final model is designed as a **star schema** centered on a unified fact tabl
 
 ## Key Insights
 
+<img width="1141" height="712" alt="Dashboard 5 tarlac" src="https://github.com/user-attachments/assets/f7f85ec0-d2cc-46ec-8837-8ea92c573ebe" />
+
 - **Equipment cost is the primary cost driver (~50%+)**  
   Across all sites, equipment-related costs consistently make up the largest portion of total expenses, significantly impacting cost per m³.
   
@@ -128,6 +130,9 @@ The final model is designed as a **star schema** centered on a unified fact tabl
 
 - **Cost per m³ varies across locations**
     Site comparison indicates differences in cost efficiency, suggesting variability in operations, distance, or equipment utilization.
+
+
+<img width="1142" height="715" alt="Dashboard 6 zambales" src="https://github.com/user-attachments/assets/9346abf6-c940-4db6-9137-626632ae6aa1" />
 
 - **External services (drilling & blasting) are stable but less dominant**
     These costs remain relatively constant due to contract-based pricing and contribute less to variability compared to in-house operations.
