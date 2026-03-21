@@ -47,7 +47,7 @@ This project addresses this gap by building a unified data model to enable accur
 
 - Generated synthetic datasets using AI to simulate realistic quarry operations
 - Cleaned and standardized data using Python (Google Colab)
--link:- https://colab.research.google.com/drive/1jPHbrKn9rcpHiS8hL6u4mWNKgmcM7Bte?usp=sharing
+ https://colab.research.google.com/drive/1jPHbrKn9rcpHiS8hL6u4mWNKgmcM7Bte?usp=sharing
 - Exported structured CSV files for analysis
 
 ### 2. Data Import & Preparation
