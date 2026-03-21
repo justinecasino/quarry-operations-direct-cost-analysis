@@ -79,6 +79,41 @@ This project addresses this gap by building a unified data model to enable accur
 
 
 
+## Data Structure Overview
+
+The final model is designed as a **star schema** centered on a unified fact table to support efficient and scalable analysis.
+
+### Fact Table
+
+- **`fact_ops_appended`**  
+  Central table combining operations and hauling data at the process level.
+
+  **Includes:**
+  - Date  
+  - Site  
+  - Equipment ID  
+  - Process  
+  - Output (m³)  
+  - Cost components:
+    - Fuel Cost  
+    - Labor Cost  
+    - Equipment Cost  
+    - Maintenance Cost  
+    - External Services Cost  
+
+### Dimension Tables
+
+- **`dim_date`** – supports time-based analysis  
+- **`dim_site`** – enables site-level comparison  
+- **`dim_equipment`** – contains equipment cost attributes  
+- **`dim_process`** – standardizes operational stages  
+
+### Supporting Table
+
+- **`fact_fuelprice`** – stores daily fuel prices for cost calculations  
+
+
+
 ## Key Insights
 - **Equipment cost is the dominant cost driver (~50%+)**
     The cost breakdown shows that equipment-related costs make up the largest share of total expenses, significantly influencing overall cost per m³.
