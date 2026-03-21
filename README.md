@@ -114,19 +114,85 @@ The final model is designed as a **star schema** centered on a unified fact tabl
 
 
 
-## Key Insights
-- **Equipment cost is the dominant cost driver (~50%+)**
-    The cost breakdown shows that equipment-related costs make up the largest share of total expenses, significantly influencing overall cost per m³.
-- **Hauling is the most expensive operational process**
-    Among all stages, hauling has the highest total cost, driven by combined fuel usage and equipment cost, making it the most critical area for optimization.
-- **Fuel cost is the second major contributor (~25–27%)**
-    Fuel expenses consistently represent a significant portion of total cost, especially in hauling and extraction activities.
+
 - **Cost per m³ varies across locations**
     Site comparison indicates differences in cost efficiency, suggesting variability in operations, distance, or equipment utilization.
 - **External services (drilling & blasting) are stable but less dominant**
     These costs remain relatively constant due to contract-based pricing and contribute less to variability compared to in-house operations.
 - **Short-term trends show relatively stable total cost with fluctuations in fuel-driven processes**
     Variations in daily cost trends are mainly influenced by fuel consumption and operational activity levels.
+
+
+
+## 📈 Key Insights
+
+- **Equipment cost is the primary cost driver (~50%+)**  
+  Across all sites, equipment-related costs consistently make up the largest portion of total expenses, significantly impacting cost per m³.
+- **Hauling is the most expensive operational stage**  
+  The operations cycle breakdown shows that hauling contributes the highest cost due to combined fuel and equipment usage.
+
+- **Fuel cost is the second largest contributor (~25–30%)**  
+  Fuel expenses play a major role, especially in hauling and extraction processes, driving variability in daily costs.
+
+- **Cost structure is consistent across sites, but efficiency varies**  
+  While cost composition is similar, differences in cost per m³ suggest variations in operational efficiency and execution.
+
+- **External services (drilling & blasting) are stable and predictable**  
+  These costs remain relatively constant due to contract-based pricing and have minimal impact on cost fluctuations.
+
+- **Daily cost fluctuations are driven by operational activity and fuel usage**  
+  Variations in trends are mainly influenced by changes in fuel consumption and equipment utilization.
+
+---
+
+## 💡 Recommendations
+
+- **Optimize equipment utilization (Highest Impact)**
+  - Minimize idle time and improve deployment planning  
+  - Align equipment usage with production requirements  
+  - Evaluate cost efficiency of owned vs rented equipment  
+
+- **Improve hauling efficiency**
+  - Optimize hauling routes and reduce travel distance  
+  - Improve truck dispatching and cycle time  
+  - Monitor load efficiency and trip productivity  
+
+- **Strengthen fuel cost management**
+  - Track fuel consumption per equipment and per process  
+  - Identify abnormal usage patterns  
+  - Implement fuel efficiency practices  
+
+- **Benchmark and standardize site performance**
+  - Identify best-performing sites in terms of cost per m³  
+  - Apply best practices across all locations  
+
+- **Use cost per m³ as a core KPI**
+  - Monitor regularly at both site and process levels  
+  - Use it to guide operational and financial decisions  
+
+---
+
+## ⚠️ Disclaimer
+
+This project uses **AI-generated synthetic data** designed to approximate realistic quarry operations.  
+It is intended for analytical and portfolio purposes only and does not represent actual company data.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
