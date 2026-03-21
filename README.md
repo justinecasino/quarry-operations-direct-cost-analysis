@@ -66,12 +66,12 @@ This project addresses this gap by building a unified data model to enable accur
 
 ### 5. Measures & Visualization
 - Developed key DAX measures such as:
--- Cost per m³
--- Total Cost 
--- Fuel Cost
--- Equipment Cost
--- External Services Cost
--- Labor Cost
+ - Cost per m³
+ - Total Cost 
+ - Fuel Cost
+ - Equipment Cost
+ - External Services Cost
+ - Labor Cost
  
  - Built interactive Power BI dashboards to analyze cost drivers and operational performance
 <img width="1132" height="717" alt="Dashboard1" src="https://github.com/user-attachments/assets/6e740fc1-2f58-4573-9cf1-8cf97456000e" />
