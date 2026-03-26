@@ -48,14 +48,14 @@ This project addresses this gap by building a unified data model to enable accur
 
 ### 1. Data Generation & Cleaning
 
-- Generated synthetic datasets using AI to simulate realistic quarry operations
-- Cleaned and standardized data using Python (Google Colab)
+- Generated synthetic datasets using **AI** to simulate realistic quarry operations
+- Cleaned and standardized data using **Python (Google Colab)**
  https://colab.research.google.com/drive/1jPHbrKn9rcpHiS8hL6u4mWNKgmcM7Bte?usp=sharing
 - Exported structured CSV files for analysis
 
 ### 2. Data Import & Preparation
-- Imported datasets into Power BI
-- Created Dimension Tables using DAX and Power Query
+- Imported datasets into **Power BI**
+- Created Dimension Tables using **DAX and Power Query**
 
 ### 3. Data Modeling
 - Designed a star schema with conformed dimensions
@@ -166,21 +166,6 @@ The final model is designed as a **star schema** centered on a unified fact tabl
 - **Use cost per m³ as a core KPI**
   - Monitor regularly at both site and process levels  
   - Use it to guide operational and financial decisions  
-
-
-
-## Tech Stack
-
-- **Python (Google Colab)** – data cleaning  
-- **Power BI** – data modeling & visualization  
-- **DAX & Power Query** – calculations and transformations  
-
-
-
-## Disclaimer
-
-This project uses **AI-generated synthetic data** designed to approximate realistic quarry operations.  
-It is intended for analytical and portfolio purposes only and does not represent actual company data.
 
 
 
